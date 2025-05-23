@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rapid Ride Links</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  h1 {
+    margin-top: 40px;
+    color: #0070c0;
+  }
+  .links {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  a {
+    text-decoration: none;
+    background-color: #0070c0;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+  }
+  a:hover {
+    background-color: #005a8c;
+  }
+</style>
+</head>
+<body>
+
+<h1>Rapid Ride</h1>
+
+<div class="links">
+  <a href="https://play.google.com/store/apps/details?id=com.rapidride.customer&pcampaignid=web_share" target="_blank" rel="noopener">User App - Android</a>
+  <a href="https://apps.apple.com/ke/app/rapid-ride-user/id6742021345" target="_blank" rel="noopener">User App - iOS</a>
+  <a href="https://play.google.com/store/apps/details?id=com.rapidride.partner&pcampaignid=web_share" target="_blank" rel="noopener">Driver App - Android</a>
+  <a href="https://apps.apple.com/ke/app/rapid-ride-partner/id6742021095" target="_blank" rel="noopener">Driver App - iOS</a>
+  <a href="https://www.instagram.com/rapidrideke/" target="_blank" rel="noopener">Instagram</a>
+  <a href="https://www.facebook.com/RapidRideKE/" target="_blank" rel="noopener">Facebook</a>
+</div>
+
+</body>
+</html>
